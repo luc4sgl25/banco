@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8A05BE;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px; 
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #820AD1;
+  padding: 15px;
+  color: white;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.icone-perfil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.icones img {
+  width: 25px;
+  margin-left: 15px;
+}
+
+main {
+  padding: 20px;
+  background-color: #F7F7F7; 
+  text-align: center;
+}
+
+.conta {
+  background-color: #4A0078;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.saldo {
+  background-color: #EEE;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.acoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.acao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #333;
+  cursor: pointer; 
+  transition: transform 0.2s ease, background-color 0.2s ease; 
+}
+
+.acao:hover {
+  transform: scale(1.1); 
+  background-color: #e0e0e0; 
+  border-radius: 5px; 
+}
+
+.icone-acao {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4A0078;
+  color: white;
+}
